@@ -16,11 +16,14 @@ class Header extends Component {
                 <Logo className='logo' />
                 </Link>
                 <div className='options'>
-                <Link className='option f6 link grow ph3 pv2 mb2 dib white bg-black' to='/shop'>
+                <Link className='option f6 dim ph3 pv2 mb2 dib white bg-black' to='/shop'>
                 SHOP 
                 </Link>
-                <Link className='option f6 link grow ph3 pv2 mb2 dib white bg-black' to='/shop'>
+                <Link className='option f6 dim ph3 pv2 mb2 dib white bg-black' to='/shop'>
                 CONTACT
+                </Link>
+                <Link className='option f6 dim ph3 pv2 mb2 dib white bg-black' to='/signin'>
+                SIGN IN
                 </Link>
                 </div>
             </div>
